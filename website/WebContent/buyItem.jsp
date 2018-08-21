@@ -88,11 +88,11 @@
 							</td>
 							<td>
 								<select name="stock">
-									<option value="1" selected="selected">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4">4</option>
-									<option value="5">5</option>
+									<option value="a">選択してください</option><script>
+										for(var i=1;i<=10;i++){
+											document.write("<option>"+i+"</option>");
+										}
+									</script>
 								</select>
 							</td>
 						</tr>
