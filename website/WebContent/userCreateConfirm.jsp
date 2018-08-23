@@ -40,6 +40,9 @@
 				width:100%;
 				height:80px;
 				background-color:black;
+				color:white;
+				text-align:center;
+				line-height:80px;
 			}
 			#main{
 				width:100%;
@@ -50,6 +53,9 @@
 				width:100%;
 				height:80px;
 				background-color:black;
+				color:white;
+				text-align:center;
+				line-height:80px;
 				clear:both;
 			}
 		</style>
@@ -57,6 +63,7 @@
 	<body>
 		<div id="header">
 			<div id="pr">
+			ユーザー登録確認画面
 			</div>
 		</div>
 		<div id="main">
@@ -103,6 +110,7 @@
 
 			<div id="footer">
 				<div id="pr">
+				website
 				</div>
 			</div>
 		</div>

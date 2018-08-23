@@ -39,6 +39,9 @@
 				width:100%;
 				height:80px;
 				background-color:black;
+				color:white;
+				text-align:center;
+				line-height:80px;
 			}
 			#main{
 				width:100%;
@@ -49,13 +52,21 @@
 				width:100%;
 				height:80px;
 				background-color:black;
+				color:white;
+				text-align:center;
+				line-height:80px;
 				clear:both;
+			}
+			.submit_botton{
+				text-align:center;
+				padding-right:100px;
 			}
 		</style>
 	</head>
 	<body>
 		<div id="header">
 			<div id="pr">
+			購入画面
 			</div>
 		</div>
 		<div id="main">
@@ -88,11 +99,16 @@
 							</td>
 							<td>
 								<select name="stock">
-									<option value="a">選択してください</option><script>
-										for(var i=1;i<=10;i++){
-											document.write("<option>"+i+"</option>");
-										}
-									</script>
+									<option value="1" selected="selected">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
 								</select>
 							</td>
 						</tr>
@@ -108,7 +124,9 @@
 						</tr>
 						<tr>
 							<td>
-								<s:submit value="購入"/>
+								<div class="submit_botton">
+								<s:submit value="購入" class="botton"/>
+								</div>
 							</td>
 						</tr>
 					</table>
@@ -121,6 +139,7 @@
 		</div>
 		<div id="footer">
 			<div id="pr">
+			website
 			</div>
 		</div>
 	</body>
