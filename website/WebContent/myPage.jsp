@@ -76,10 +76,10 @@
 			</div>
 			<div>
 				<s:if test="myPageList==null">
-					<h3>ご購入情報はありません</h3>
+					<h2>ご購入情報はありません</h2>
 				</s:if>
 				<s:elseif test="message==null">
-					<h3>ご購入情報は以下になります</h3>
+					<h2>ご購入情報は以下になります</h2>
 					<table border="1">
 						<tr>
 							<th>商品名</th>

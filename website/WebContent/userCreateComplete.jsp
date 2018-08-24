@@ -72,7 +72,7 @@
 				<p>UserCreateComplete</p>
 			</div>
 			<div>
-				<h3>ユーザー登録が完了致しました。</h3>
+				<h2>ユーザー登録が完了致しました。</h2>
 				<div>
 					<a href='<s:url action="HomeAction"/>'>ログインへ</a>
 				</div>

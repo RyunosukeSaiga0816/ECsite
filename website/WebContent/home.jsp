@@ -74,7 +74,7 @@
 			</div>
 			<div id="text-center">
 				<s:if test="#session.id !=null">
-					<h3>ようこそ</h3>
+					<h2>ようこそ</h2>
 					<s:form action="HomeAction">
 						<s:submit value="購入画面"/>
 					</s:form>
@@ -82,7 +82,7 @@
 					<a href='<s:url action="LogoutAction"/>'>こちら</a></p>
 				</s:if>
 				<s:if test="#session.id ==null">
-					<h3>商品を購入する際にはログインをお願いします</h3>
+					<h2>商品を購入する際にはログインをお願いします</h2>
 					<s:form action="LoginAction">
 						<s:submit value="ログイン"/>
 					</s:form>

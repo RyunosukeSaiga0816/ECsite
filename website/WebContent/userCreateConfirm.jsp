@@ -72,7 +72,7 @@
 					<p>UserCreateConfirm</p>
 				</div>
 				<div>
-					<h3>登録する内容は以下でよろしいでしょうか。</h3>
+					<h2>登録する内容は以下でよろしいでしょうか。</h2>
 					<table>
 						<s:form action="UserCreateCompleteAction">
 							<tr id="box">
