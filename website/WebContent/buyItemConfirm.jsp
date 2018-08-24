@@ -103,7 +103,6 @@
 					</tr>
 				</s:form>
 				<div>
-					<p>Homeへ戻る場合は<a href='<s:url action="GoHomeAction"/>'>こちら</a></p>
 					<p>マイページは<a href='<s:url action="MyPageAction"/>'>こちら</a></p>
 					<p>ログアウトする場合は
 					<a href='<s:url action="LogoutAction"/>'>こちら</a></p>
