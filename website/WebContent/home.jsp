@@ -73,10 +73,13 @@
 				<p>Home</p>
 			</div>
 			<div id="text-center">
-				<s:form action="HomeAction">
-					<s:submit value="商品購入"/>
+				<s:form action="LoginAction">
+					<s:submit value="ログイン"/>
 				</s:form>
 				<s:if test="#session.id !=null">
+					<s:form action="HomeAction">
+						<s:submit value="購入画面"/>
+					</s:form>
 					<p>ログアウトする場合は
 					<a href='<s:url action="LogoutAction"/>'>こちら</a></p>
 				</s:if>

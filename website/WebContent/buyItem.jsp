@@ -57,10 +57,7 @@
 				line-height:80px;
 				clear:both;
 			}
-			.submit_botton{
-				text-align:center;
-				padding-right:100px;
-			}
+
 		</style>
 	</head>
 	<body>
@@ -124,9 +121,7 @@
 						</tr>
 						<tr>
 							<td>
-								<div class="submit_botton">
-								<s:submit value="購入" class="botton"/>
-								</div>
+								<s:submit value="購入"/>
 							</td>
 						</tr>
 					</table>

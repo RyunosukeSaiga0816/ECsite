@@ -40,5 +40,5 @@ insert_date datetime,
 delete_date datetime
 );
 
-INSERT INTO item_info_transaction(item_name,item_price,item_stock) VALUES("ペン",150,30);
+INSERT INTO item_info_transaction(item_name,item_price,item_stock) VALUES("ペン",200,30);
 INSERT INTO login_user_transaction(login_id,login_pass,user_name) VALUES("taro","123","yamada");
