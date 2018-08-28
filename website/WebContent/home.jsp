@@ -74,7 +74,7 @@
 			</div>
 			<div id="text-center">
 				<s:if test="#session.id !=null">
-					<h2>ようこそ</h2>
+					<h2>ようこそ!</h2>
 					<s:form action="HomeAction">
 						<s:submit value="購入画面"/>
 					</s:form>
