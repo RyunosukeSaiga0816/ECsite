@@ -74,7 +74,7 @@
 				<p>Login</p>
 			</div>
 			<div>
-				<h2>ログイン後購入ページへ移動します</h2>
+				<h2>ログイン後Homeページへ移動します</h2>
 				<s:form action="LoginAction">
 					<s:textfield name="loginUserId"/>
 					<s:password name="loginPassword"/>
