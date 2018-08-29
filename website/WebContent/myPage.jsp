@@ -62,6 +62,18 @@
 				display:inline-block;
 				text-align:right;
 			}
+			#text-center{
+				width: 780px;
+				height: auto;
+				padding-top: 70px;
+				margin-top: 50px;
+				margin: 0 auto;
+				padding-bottom: 100px;
+				background-color:#CCCCCC;
+				overflow: auto;
+				background: lightgray;
+				border-radius:30px;
+			}
 		</style>
 	</head>
 	<body>
@@ -74,7 +86,7 @@
 			<div id="top">
 				<p>MyPage</p>
 			</div>
-			<div>
+			<div id="text-center">
 				<s:if test="myPageList==null">
 					<h2>ご購入情報はありません</h2>
 				</s:if>

@@ -57,6 +57,18 @@
 				line-height:80px;
 				clear:both;
 			}
+			#text-center{
+				width: 780px;
+				height: auto;
+				padding-top: 70px;
+				margin-top: 50px;
+				margin: 0 auto;
+				padding-bottom: 100px;
+				background-color: #CCCCCC;
+				overflow: auto;
+				background: lightgray;
+				border-radius:30px;
+			}
 		</style>
 	</head>
 	<body>
@@ -69,7 +81,7 @@
 			<div id="top">
 				<p>BuyItemComplete</p>
 			</div>
-			<div>
+			<div id="text-center">
 				<h2>購入手続きが完了致しました</h2>
 					<div>
 						<a href='<s:url action="MyPageAction"/>'>

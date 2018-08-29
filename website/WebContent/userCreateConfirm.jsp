@@ -58,6 +58,18 @@
 				line-height:80px;
 				clear:both;
 			}
+			#text-center{
+				width: 780px;
+				height: auto;
+				padding-top: 70px;
+				margin-top: 50px;
+				margin: 0 auto;
+				padding-bottom: 100px;
+				background-color: #CCCCCC;
+				overflow: auto;
+				background: lightgray;
+				border-radius:30px;
+			}
 		</style>
 	</head>
 	<body>
@@ -71,7 +83,7 @@
 				<div id="top">
 					<p>UserCreateConfirm</p>
 				</div>
-				<div>
+				<div id="text-center">
 					<h2>登録する内容は以下でよろしいでしょうか。</h2>
 					<table>
 						<s:form action="UserCreateCompleteAction">
